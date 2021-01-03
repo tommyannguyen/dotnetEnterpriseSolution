@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30804.86
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Nca.Library", "ClassLibrary1\Nca.Library.csproj", "{4C49C112-2F32-4713-8DC6-368E951310BC}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "lucene", "lucene", "{08C43E1B-791F-4FAF-83CD-96CE60A09233}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Nca.Lucene.App", "Nca.Lucene.Console\Nca.Lucene.App.csproj", "{8E874504-EF0A-4CF8-83FB-976447122859}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4C49C112-2F32-4713-8DC6-368E951310BC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4C49C112-2F32-4713-8DC6-368E951310BC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4C49C112-2F32-4713-8DC6-368E951310BC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4C49C112-2F32-4713-8DC6-368E951310BC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8E874504-EF0A-4CF8-83FB-976447122859}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8E874504-EF0A-4CF8-83FB-976447122859}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8E874504-EF0A-4CF8-83FB-976447122859}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8E874504-EF0A-4CF8-83FB-976447122859}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{8E874504-EF0A-4CF8-83FB-976447122859} = {08C43E1B-791F-4FAF-83CD-96CE60A09233}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {59BE628D-6072-4FCA-9922-6303747278D0}
+	EndGlobalSection
+EndGlobal
